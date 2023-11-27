@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+body{
+    background-color: #d4d2d2;
+}
+
+.container{
+    display: grid;
+    max-width: 1024px;
+    padding: 16px 0;
+    margin:auto;
+    width: 50%;
+    
+
+}
+
+button {
+    margin-top: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 70px;
+    margin: auto;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
+label {
+    margin-top: 10px;
+}
