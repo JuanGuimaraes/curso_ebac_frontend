@@ -8,7 +8,26 @@ function Funcionario(nome, idade, nacionalidade, empresa, cargo, salario ) {
     this.nacionalidade = nacionalidade;
     this.empresa = empresa;
     this.cargo = cargo;
-    this.salario = salario;
+    // this.salario = salario;
+    let _salario = salario;
+
+    this.getSalario = function() {
+        return _salario;
+    }
+
+    this.setSalario = function(valor) {
+        if (typeof valor === 'number') {
+            _salario = valor;
+        }
+    }
+
+    this.aumento = function() {
+        const novoSalario = _salario * 1.1;
+
+        _salario = novoSalario;
+    }
+
+
 }
 
 function Atribuicoes (nome, horaTrabalho, funcoes) {
@@ -31,13 +50,14 @@ const atribuicoes3 = new Atribuicoes("Joana","7 ás 17h", "manutenção, instala
 
 
 
-
+funcionario.aumento();
+funcionario2.aumento();
 console.log(pessoa);
-console.log(funcionario);
+console.log(funcionario.getSalario());
 console.log(atribuicoes);
 
 console.log(pessoa2);
-console.log(funcionario2);
+console.log(funcionario2.getSalario());
 console.log(atribuicoes2);
 // console.log(pessoa3);
 
