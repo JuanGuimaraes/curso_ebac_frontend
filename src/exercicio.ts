@@ -4,6 +4,6 @@ function multiplica (a: number, b: number): number {
 
 let nome:string = 'Jose';
 
-function dizOla (): string {
+function dizOla (nome: string): string {
     return (`Olá ${nome}.`)
 }
