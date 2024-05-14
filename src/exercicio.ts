@@ -1,0 +1,9 @@
+function multiplica (a: number, b: number): number {
+    return a * b;
+}
+
+let nome:string = 'Jose';
+
+function dizOla (): string {
+    return (`Olá ${nome}.`)
+}
