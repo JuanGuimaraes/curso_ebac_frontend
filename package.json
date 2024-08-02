@@ -1,7 +1,6 @@
 {
   "name": "exercicio_modulo34",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "cypress": "cypress",
@@ -13,5 +12,6 @@
   "devDependencies": {
     "cypress": "^13.13.2",
     "mochawesome": "^7.1.3"
-  }
+  },
+  "description": ""
 }
