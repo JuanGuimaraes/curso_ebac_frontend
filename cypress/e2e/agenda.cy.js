@@ -7,7 +7,7 @@ describe("Teste para a agenda", () => {
     it("Deve adicionar um contato", () => {
         cy.get('[type="text"]').type("Juan Guimaraes");
         cy.get('[type="email"]').type("juanguimaraes@gmail.com");
-        cy.get('[type="tel"]').type('21986512987');
+        cy.get('[type="tel"]').type('21123456789');
         cy.get('.adicionar').click();
     });
     it("Deve editar um contato", () => {
